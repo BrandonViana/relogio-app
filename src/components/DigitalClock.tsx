@@ -28,7 +28,7 @@ function DigitalClock() {
   }
 
   return (
-    <div className="text-black font-bold text-5xl m-0 p-0 ">
+    <div className="text-black font-bold text-5xl m-0 p-0 dark:text-white ">
       <span>{formatTime()}</span>
     </div>
   );
