@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { GrSun, GrMoon } from "react-icons/gr";
 
-function DarkLight() {
+const DarkLight = () => {
   const [theme, setTheme] = useState(
     () => localStorage.getItem("theme") || "light"
   );
@@ -24,6 +24,6 @@ function DarkLight() {
       {theme === "light" ? <GrMoon /> : <GrSun />}
     </button>
   );
-}
+};
 
 export default DarkLight;
