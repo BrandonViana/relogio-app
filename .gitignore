@@ -1,4 +1,3 @@
-# Logs
 logs
 *.log
 npm-debug.log*
@@ -11,12 +10,12 @@ node_modules
 dist
 dist-ssr
 *.local
+
 vite.config.ts
 tsconfig.node.json
 tsconfig.app.json
 eslint.config.js
 
-# Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
