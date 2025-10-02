@@ -23,9 +23,9 @@ const DigitalClock = () => {
     )} ${halfTime}`;
   };
 
-  function padZero(number: number) {
+  const padZero = (number: number) => {
     return (number < 10 ? "0" : "") + number;
-  }
+  };
 
   return (
     <div className="text-black font-bold text-5xl m-0 p-0 dark:text-white ">
